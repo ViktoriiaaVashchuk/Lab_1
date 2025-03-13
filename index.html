@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глибини психології і медитації</title>
+	<link rel="icon" href="img/logo.png" >
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/basejq.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				const form = document.querySelector(".contact");
+				form.addEventListener("submit", function(event) {
+
+					event.preventDefault(); // Зупинити звичайну відправку форми
+					// Виконати AJAX-запит на сервер для відправки даних форми
+					const formData = new FormData(form);
+					fetch("mail.php", {
+						method: "POST",
+						body: formData
+					})
+					.then(response => response.text())
+					.then(data => {
+						// Вивести повідомлення з результата
+						alert(data);
+					})
+					.catch(error => {
+						console.error("Помилка: " + error);
+					});
+				});
+			});
+		</script>
+</head>
+<body>
+	<div class="container block" style="padding-top: 50px;">
+		<div class="row">
+			<div class="col"> 
+				<div class="highlighted-text">
+					<h1 class="text-center">
+						<img src="img/logo.png" alt="Лівий логотип" style="width: 50px; height: 50px;">
+						Глибина Психології і Медитації
+						<img src="img/logo.png" alt="Правий логотип" style="width: 50px; height: 50px;">
+					</h1>
+					<br> 
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark"><!--./novbar-->
+					<div class="container-fluid">
+					  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						  <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">Головна</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="meditation.html">Медитація</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="psychology.html">Психологія</a>
+						  </li>
+						  <li class="nav-item">
+						  <a class="nav-link" href="self_development.html">Саморозвиток</a>
+						</li>
+						  <li class="nav-item">
+							<a class="nav-link "  href="author.html">Про автора</a>
+						  </li>
+						</ul>
+						<form class="d-flex" action="search.php" method="get">
+							<input class="form-control me-2" type="search" name="query" placeholder="Пошук" aria-label="Пошук">
+							<button class="btn btn-outline-success" type="submit">Пошук</button>
+						</form>
+					  </div>
+					</div>
+				  </nav> <!--./novbar-->
+			</div>
+		</div>
+		<br> <br> <br><br> <br> <br>  <br>
+		<div class="highlighted-text">
+			<p>
+				"Ласкаво просимо до мого особливого куточка в мережі, призначеного для дослідження глибини психології та медитації. Тут я запрошую вас на подорож в світ внутрішнього розвитку та спокою."
+			</p>
+		</div>
+		</div>
+		<br>  
+		<div class="row">
+			<div class="col d-flex justify-content-center">
+				<div class="carousel-container">
+					<div id="carouselExample" class="carousel slide">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="img/2м.jpg" class="d-block w-100" alt="зображення">
+							</div>
+							<div class="carousel-item">
+								<img src="img/00м.jpg" class="d-block w-100" alt="зображення">
+							</div>
+							<div class="carousel-item">
+								<img src="img/8ми.jpg" class="d-block w-100" alt="зображення">
+							</div>
+							<div class="carousel-item">
+								<img src="img/0м.jpg" class="d-block w-100" alt="зображення">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Попередня</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Наступна</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br> <br> <br>
+		<br> 
+		<div class="row  " style="margin-left: 60px; margin-right: 60px;">
+			<div class="col">
+				<div class="accordion" id="accordionExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Чому мотивація губиться?
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Якщо діяльність, в якій ми зараз є, не дозволяє закрити наші потреби, мотивація знижується.
+
+Діяльність перестає мати важливе значення для нас. Вже не радує те, що раніше надихало, піднімало настрій, зникає бажання йти на контакт з іншими людьми, немає енергії – це тривожні дзвіночки, які можуть свідчити про вигоряння.
+В цей момент треба усвідомлено підійти до питання мотивації і не чекати поки з’явиться хтось інший і наповнить життя сенсом.
+Для цього варто самому знати і розуміти власні потреби і організовувати діяльність так, щоб ці важливі потреби були закриті.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+								Чому важливо залишатися мотивованим?
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Пошук і підтримка свого внутрішнього палива – це захист від вигоряння, незалежно від попереднього досвіду чи генетики.
+Але робити це треба з позиції дорослого, не чекати, поки інша людина потурбується, помітить ваші потреби.
+Важливо слідкувати не тільки за тим, що ми "повинні" робити, але і за тим, що наповнює, дає позитивну енергію.
+При цьому можна використовувати різні канали – наповнення через емоції, через тіло, діяльність, стосунки з іншими, зі світом, а також через духовні практики та роботі з сенсами.  
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" type=" button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Як допомагає з цим медитація?
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Медитація допомагає знизити рівень стресу та тривожності. Вона дозволяє людині зменшити напругу та зосередитися на поточному моменті, краще керувати своїми емоціями. Поліпшення настрою та зниження депресії. Користь медитації часто полягає в поліпшенні настрою ,позбавленні від депресії та зосередженні на успіхові .
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br> <br> <br><br> 
+			<div class=" row" style="margin-left: 120px; margin-right: 80px;">
+				<div class="col ">
+					<div class="card  " style="width: 18rem;">
+					  <img src="img/44.jpg" class="card-img-top" alt="зображення">
+					  <div class="card-body">
+						<h5 class="card-title">Психологія</h5>
+						<p class="card-text text-truncate">
+							<a href="psychology.html" target="_blank" class="btn btn-primary stretched-link">Перейти</a>
+					  </div>
+						  </div>
+					</div>
+				<div class="col ">
+					<div class="card" style="width: 18rem;">
+					  <img src="img/55.jpg" class="card-img-top" alt="зображення">
+					  <div class="card-body">
+						<h5 class="card-title">Медитація</h5>
+						<p class="card-text text-truncate">
+						<a href="meditation.html" target="_blank" class="btn btn-primary stretched-link">Перейти</a>
+					  </div>
+						  </div>
+					</div> 
+					<br><br>
+				<div class="col " >
+					<div class="card " style="width: 18rem;">
+					  <img src="img/66.jpg" class="card-img-top" alt="зображення">
+					  <div class="card-body">
+						<h5 class="card-title">Саморозвиток</h5>
+						<p class="card-text text-truncate">
+						<a href="self_development.html" target="_blank" class="btn btn-primary stretched-link">Перейти</a>
+					  </div>
+						  </div>
+					</div>
+			</div>
+			<br> <br> <br><br> <br> <br>
+			<div class="row">
+			<div class="col ">
+				<div class="col text-black">
+					<div class="highlighted-text">
+								<h3>Знайди мотиваційну цитату для себе !</h3>
+							</div>
+							<br>
+					<div class="owl-carousel owl-theme">
+						<div class="item"> <a href="img/2m.jpg" data-lightbox="motivation"><img src="img/2m.jpg"></a></div>
+						<div class="item"> <a href="img/3m.jpg" data-lightbox="motivation"><img src="img/3m.jpg"></a></div>
+						<div class="item"> <a href="img/4m.jpg" data-lightbox="motivation"><img src="img/4m.jpg"></a></div>
+						<div class="item"> <a href="img/5m.jpg" data-lightbox="motivation"><img src="img/5m.jpg"></a></div>
+						<div class="item"> <a href="img/6m.jpg" data-lightbox="motivation"><img src="img/6m.jpg"></a></div>
+						<div class="item"> <a href="img/7m.jpg" data-lightbox="motivation"><img src="img/7m.jpg"></a></div>
+						<div class="item"> <a href="img/8m.jpg" data-lightbox="motivation"><img src="img/8m.jpg"></a></div>
+						<div class="item"> <a href="img/9m.jpg" data-lightbox="motivation"><img src="img/9m.jpg"></a></div>
+					</div>
+				</div>				
+		</div>
+	</div>
+	<br> <br> <br>
+<footer class="footer" >
+	<div class="footer-inner" style="margin-left: 75px; margin-right: 75px;">
+		<div class="footer-col" >
+			<div class="footer-logo" >
+				<img src="img/logo.png" alt="Логотип" style="width: 60px; height: 60px;">
+				Глибина психології та медитації
+			  </div>
+			<div class="footer-text">Я прагну  надати зручний інструмент для зв'язку та обміну думками з відвідувачами, щоб створити спільноту, яка допоможе один одному в досягненні цілей саморозвитку та духовного збагачення. Я готова слухати вас та надавати необхідну підтримку.</div>
+			<div class="footer-social">
+				<div class="footer-social-header">
+				</div>
+				<div class="footer-social-content">
+					Слідкуй за мною:
+					<a href="https://instagram.com/victoria.vashchuk?igshid=NTc4MTIwNjQ2YQ=" target="_blank">
+							<img src="img/i.png" alt="інстаграм " style="width: 28px; height: 28px;">
+						  </a>
+						  <a href="https://www.facebook.com/profile.php?id=100027235027218" target="_blank">
+							<img src="img/f.png" alt="фейсбук" style="width: 25px; height: 25px;">
+						  </a>
+				</div>
+			</div>
+			<br>  <br> <br> 
+		</div>
+	<div class="footer-col">
+		<form class="contact" action="mail.php" method="post">
+			<div class="footer-contact">
+				<h2 class="quick">Швидкий зв'язок</h2>
+				<h4 class="sinfo">Зв'яжіться зі мною сьогодні і отримайте відповідь протягом 24 годин!</h4>
+			</div>
+			<fieldset>
+				<input name="email" placeholder="Ваша адреса електронної пошти" class="email" tabindex="2" required>
+			</fieldset>
+			<fieldset>
+				<textarea name="message" placeholder="Напишіть ваше повідомлення тут..." class="textarea" tabindex="5" required></textarea>
+			</fieldset>
+			<fieldset>
+				<button name="submit" type="submit" class="contact-submit" data-submit="...Відправляється">Надіслати</button>
+			</fieldset>
+			<br><br>
+		</form>
+</div>
+</div>
+</footer>
+<p>&copy; 2023 Глибина психології і медитації</a></p>
+</div>
+<script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.css">
+		<script src="jquery.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+		<script src="owlcarousel/owl.carousel.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+	  <script>
+		$('.owl-carousel').owlCarousel({
+		 loop:true,
+		 autoplay:true,
+		 margin:10,
+		 nav:true,
+		 responsive:{
+			 0:{
+				 items:1
+			 },
+			 600:{
+				 items:3
+			 },
+			 1000:{
+				 items:5
+			 }
+		 }
+	 })
+		 </script>
+</body>
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		const searchForm = document.getElementById("search-form");
+		const searchInput = document.getElementById("search-input");
+		const searchResults = document.getElementById("search-results");
+	
+		searchForm.addEventListener("submit", function(event) {
+			event.preventDefault();
+	
+			const query = searchInput.value.trim();
+	
+			if (query) {
+				fetch('search.php?query=' + query)
+					.then(response => response.json())
+					.then(data => {
+						if (data.length > 0) {
+							searchResults.innerHTML = "<h2>Результати пошуку:</h2>";
+							data.forEach(function(result) {
+								const link = document.createElement('a');
+								link.href = result;
+								link.textContent = result;
+								searchResults.appendChild(link);
+							});
+						} else {
+							searchResults.innerHTML = "Слово не знайдено на сторінках.";
+						}
+					})
+					.catch(error => {
+						console.error('Помилка: ', error);
+					});
+			} else {
+				searchResults.innerHTML = "Будь ласка, введіть слово для пошуку.";
+			}
+		});
+	});
+	</script>
+	
+</html>

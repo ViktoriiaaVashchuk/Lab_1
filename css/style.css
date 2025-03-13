@@ -1,0 +1,347 @@
+
+
+       
+* {
+    font-family: "Montserrat", sans-serif !important;
+}
+body {
+  background-color: #b0d0e5; 
+}
+        .carousel-item img{
+            width: 300px;
+            
+			
+			 
+        }
+		.featurette-heading {
+			border: 2px solid rgb(6, 5, 5); /* Ширина і колір рамки */
+			padding: 10px; /* Відступ від тексту до рамки */
+			display: inline-block; /* Зробити заголовок блочним елементом */
+			background-color: #ffffff; /* Колір фону */
+		  }
+		.blog-post {
+			font-size: 1.5em; /* Збільшення розміру шрифта (на ваш смак) */
+			text-align: justify; /* Вирівнювання тексту по ширині */
+			font-family: "Montserrat", sans-serif;
+		}
+       
+        .highlighted-text h1 {
+            font-size: 35px;
+            color: #000000; /* Колір тексту */
+            text-decoration: center;
+            background-color: rgb(232, 255, 252);
+            border: 1px solid #a1a1a1;
+			font-family: "Montserrat", sans-serif;
+        }
+      
+        
+		.container {
+			text-align: center; /* Центруємо вміст всередині контейнера */
+			padding: 20px; /* Додайте відступ, якщо потрібно */
+		  }
+		  
+		  .col-md-6 {
+			background-color: #eae9e9; /* Задаємо фоновий колір для виділення */
+			padding: 35px; /* Додайте відступ для контенту */
+			border-radius: 1px; /* Закруглюємо кути для кращого виділення */
+			text-align: center;
+			color: black;
+			
+		  }
+		  
+		  h2.text-body-emphasis {
+			font-size: 24px; /* Збільшимо розмір шрифту заголовку за потребою */
+			margin-bottom: 20px; /* Відступ після заголовку */
+			font-family: "Montserrat", sans-serif;
+		  }
+		  
+		  ul.list-unstyled {
+			list-style: none; /* Відключаємо маркери списку */
+			padding: 0; /* Відключаємо відступи списку */
+		  }
+		  
+		  li {
+			margin-bottom: 10px; /* Відступ між пунктами списку */
+		  }
+		  
+		  .icon-link {
+			text-decoration: none; /* Відключаємо підкреслення посилань */
+			display: flex;
+			align-items: center;
+		  }
+		  
+		  .icon-link svg {
+			margin-right: 5px; /* Відступ між іконкою і текстом */
+		  }
+		  
+		  /* Додайте стилі за потребою */
+		   
+        
+      .highlighted-text p {
+    font-size: 30px;
+    color: #091211; /* Колір тексту */
+    text-align: center;
+    background-color: #f0f0f0; /* Колір фону */
+    padding: 10px; /* Відступи внутрішні */
+    border: 2px solid #f5f5f5; /* Рамка */
+    border-radius: 5px; /* Закруглені кути */
+    margin: 10px 0; /* Відступи зовнішні (верхні та нижні) */
+}
+
+
+
+            .highlighted-text h3{
+                font-size: 30px;
+            background-color: rgb(255, 255, 255);
+           
+            color: #000000; /* Колір тексту */
+            text-align: center;
+            }
+          
+			
+			.b-example-divider {
+				background-color: #252525; /* Задаємо фоновий колір для виділення */
+				padding: 10px; /* Додаємо внутрішній відступ для кращого виділення */
+				border-radius: 5px; /* Закруглюємо кути */
+			  }
+			  
+			  h4.fw-bold {
+				background-color: #ffffff; /* Задаємо фоновий колір для заголовка */
+				padding: 10px; /* Додаємо внутрішній відступ для кращого виділення заголовка */
+				border-radius: 5px; /* Закруглюємо кути заголовка */
+				margin: 0; /* Видаляємо зовнішні відступи заголовка */
+			  }
+			  
+			  
+        
+            .card {
+                display: flex;
+                flex-direction: column;
+               
+               
+                text-align: center; /* Вирівнювання тексту по центру внутрішніх елементів */
+              }
+              
+           
+           
+           
+        /*footer*/
+
+.footer{
+	
+	padding-top: 70px;
+	background-color: #efeeee;
+  
+}
+.footer-inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-col{
+	width: 50%;
+	padding-right: 20px;
+
+}
+
+.footer-logo{
+	font-size: 46px;
+	color: #000000;
+	font-weight: 700;
+	font-family: "Montserrat";
+	margin-bottom: 30px;
+
+}
+
+
+.footer-text{
+
+	font-size: 15px;
+	line-height: 24px;
+	color: #120f0f;
+	font-weight: 400;
+
+	margin-bottom: 30px;
+
+}
+
+.footer-social-header{
+	font-size: 15px;
+	color: #333333;
+	font-weight: 700;
+	
+
+}
+h2 {
+	background-color: #dad9d9;
+	padding: 5px; 
+	border-radius: 5px;
+  }
+
+.footer-social-header:after{
+	
+	display: block;
+	width: 100%; 
+	height: 1px;
+	background-color: #c7c5c5;
+	margin:20px 0;
+
+}
+.footer-social-content{
+	font-size: 15px;
+	line-height: 24px;
+	color: #060505;
+	font-weight: 300;
+	
+	margin-bottom: 25px;
+}
+
+
+.footer-social-content a {
+	font-size: 18px;
+	color: #95e1d3;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+
+}
+.contact {
+	background: #F9F9F9;
+	
+}
+.footer-contact{
+	display: block;
+	text-align:  center;
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-weight: normal;
+
+	color: #000000;
+}
+
+.footer-social-header{
+	font-size: 15px;
+	color: #333333;
+	font-weight: 700;
+
+
+}
+
+
+.footer-social-header:after{
+	content: '';
+	display: block;
+	width: 100%; 
+	height: 1px;
+	background-color: #6bdadc;
+	margin:20px 0;
+
+}
+
+
+.copyright {
+	text-align: right; 
+	padding-right: 20px; 
+}
+.footer-social-content a {
+	font-size: 18px;
+	color: #000000;
+		display: inline-block; /* Вирівнювання по горизонталі */
+		margin: 5px; 
+	
+	}
+	
+
+	
+
+
+
+.sinfo {
+	display: block;
+	font-size: 13px;
+	font-family: "Montserrat", sans-serif;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+	border-radius: 25%;
+}
+
+.text, 
+.email, 
+.textarea, 
+.contact-submit {
+	width: 100%;
+	border: 1px solid #9a9a9a;
+	background: #FFF;
+	
+	padding: 10px;
+}
+
+.hiddenText {
+  display: none;
+}
+
+.card-text a:hover + .hiddenText {
+  display: block;
+}
+.text,
+.email,
+.textarea,
+.contact-submit {
+	-webkit-transition: border-color ;
+	-moz-transition: border-color ;
+	transition: border-color ;
+	
+}
+
+.textarea {
+	height: 100px;
+	max-width: 100%;
+	resize: none;
+}
+
+.contact-submit {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	background: #95e1d3;
+	color: #FFF;
+	margin: 0 0 5px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.contact-submit:hover {
+	background: #28907d;
+	
+}
+
+.contact-submit:active {
+ box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+.contact input:focus, .contact textarea:focus {
+
+	border: 1px solid #fffcfc;
+}
+
+        h1 {
+			
+            font-size: 32px;
+        }
+    
+		.carousel-container {
+			max-width: 30%; /* Розмір каруселі (зменшити за потребою) */
+			text-align: center;
+		}
+		
+		.novbar {
+			background-color: aqua;
+			font-size: 35px; 
+		}
+		
+        
